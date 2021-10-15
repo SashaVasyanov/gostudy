@@ -69,6 +69,9 @@ func main() {
 	value.myField = 5
 	var pointer *myNewStruct = &value
 	fmt.Println((*pointer).myField)
+	//Литералы структур
+	newCar := model{name: "Wolk", speed: 571.21}
+	fmt.Println("Name:", newCar)
 }
 
 func showInfo(par part) {
